@@ -76,11 +76,18 @@ const Heart = ({ imageUrl }) => {
 
   return (
     <>
+    <div className={styles.wrapper}>
+        <div className={`${styles.heart} ${styles.x1}`}></div>
+        <div className={`${styles.heart} ${styles.x2}`}></div>
+        <div className={`${styles.heart} ${styles.x3}`}></div>
+        <div className={`${styles.heart} ${styles.x4}`}></div>
+        <div className={`${styles.heart} ${styles.x5}`}></div>
+        <div className={`${styles.altheart} ${styles.x6}`}></div>
+    </div>
     <div className={styles.title}>
       <h1>TAP AND HOLD THE HEART!</h1>
     </div>
     <div className={styles.container}>
-
       <div className={styles.front}>
         <audio id="song" src="/whenImetyou.mp3" type="audio/mp3" loop autoPlay></audio>
         <img src={imageUrl || 'https://freepngimg.com/thumb/megan_fox/21055-1-megan-fox-transparent-background.png'} className={styles.love} />
