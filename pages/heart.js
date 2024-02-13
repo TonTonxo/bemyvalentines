@@ -75,7 +75,12 @@ const Heart = ({ imageUrl }) => {
   }, []);
 
   return (
+    <>
+    <div className={styles.title}>
+      <h1>TAP AND HOLD THE HEART!</h1>
+    </div>
     <div className={styles.container}>
+
       <div className={styles.front}>
         <audio id="song" src="/whenImetyou.mp3" type="audio/mp3" loop autoPlay></audio>
         <img src={imageUrl || 'https://freepngimg.com/thumb/megan_fox/21055-1-megan-fox-transparent-background.png'} className={styles.love} />
@@ -84,69 +89,69 @@ const Heart = ({ imageUrl }) => {
       </div>
 
       <div className={styles.back}>
-            <div className={styles.backleft}></div>
-            <div className={styles.backright}></div>
-        </div>
-        
-        <div className={styles.left}></div>
-        <div className={styles.right}></div>
-        
-        <div className={styles.leftpiece}></div>
-        <div className={styles.leftpiece2}></div>
-        <div className={styles.leftpiece3}></div>
-        <div className={styles.leftpiece4}></div>
-        <div className={styles.leftpiece5}></div>
-        <div className={styles.leftpiece6}></div>
-        <div className={styles.leftpiece7}></div>
-        <div className={styles.leftpiece8}></div>
-        <div className={styles.leftpiece9}></div>
-        <div className={styles.leftpiece10}></div>
-        <div className={styles.leftpiece11}></div>
-        <div className={styles.leftpiece12}></div>
-        <div className={styles.leftpiece13}></div>
-        <div className={styles.leftpiece14}></div>
-        <div className={styles.leftpiece15}></div>
-        <div className={styles.leftpiece16}></div>
-        <div className={styles.leftpiece17}></div>
-        <div className={styles.leftpiece18}></div>
-        <div className={styles.leftpiece19}></div>
-        <div className={styles.leftpiece20}></div>
-        <div className={styles.leftpiece21}></div>
-        <div className={styles.leftpiece22}></div>
-        <div className={styles.leftpiece23}></div>
-        
-        
-        
-        <div className={styles.rightpiece}></div>
-        <div className={styles.rightpiece2}></div>
-        <div className={styles.rightpiece3}></div>
-        <div className={styles.rightpiece4}></div>
-        <div className={styles.rightpiece5}></div>
-        <div className={styles.rightpiece6}></div>
-        <div className={styles.rightpiece7}></div>
-        <div className={styles.rightpiece8}></div>
-        <div className={styles.rightpiece9}></div>
-        <div className={styles.rightpiece10}></div>
-        <div className={styles.rightpiece11}></div>
-        <div className={styles.rightpiece12}></div>
-        <div className={styles.rightpiece13}></div>
-        <div className={styles.rightpiece14}></div>
-        <div className={styles.rightpiece15}></div>
-        <div className={styles.rightpiece16}></div>
-        <div className={styles.rightpiece17}></div>
-        <div className={styles.rightpiece18}></div>
-        <div className={styles.rightpiece19}></div>
-        <div className={styles.rightpiece20}></div>
-        <div className={styles.rightpiece21}></div>
-        <div className={styles.rightpiece22}></div>
-        <div className={styles.rightpiece23}></div>
+        <div className={styles.backleft}></div>
+        <div className={styles.backright}></div>
+      </div>
 
-        
-        
-        <audio id="song" src="/whenImetyou.mp3" type="audio/mp3" loop="loop" autoPlay></audio>
+      <div className={styles.left}></div>
+      <div className={styles.right}></div>
+
+      <div className={styles.leftpiece}></div>
+      <div className={styles.leftpiece2}></div>
+      <div className={styles.leftpiece3}></div>
+      <div className={styles.leftpiece4}></div>
+      <div className={styles.leftpiece5}></div>
+      <div className={styles.leftpiece6}></div>
+      <div className={styles.leftpiece7}></div>
+      <div className={styles.leftpiece8}></div>
+      <div className={styles.leftpiece9}></div>
+      <div className={styles.leftpiece10}></div>
+      <div className={styles.leftpiece11}></div>
+      <div className={styles.leftpiece12}></div>
+      <div className={styles.leftpiece13}></div>
+      <div className={styles.leftpiece14}></div>
+      <div className={styles.leftpiece15}></div>
+      <div className={styles.leftpiece16}></div>
+      <div className={styles.leftpiece17}></div>
+      <div className={styles.leftpiece18}></div>
+      <div className={styles.leftpiece19}></div>
+      <div className={styles.leftpiece20}></div>
+      <div className={styles.leftpiece21}></div>
+      <div className={styles.leftpiece22}></div>
+      <div className={styles.leftpiece23}></div>
+
+
+
+      <div className={styles.rightpiece}></div>
+      <div className={styles.rightpiece2}></div>
+      <div className={styles.rightpiece3}></div>
+      <div className={styles.rightpiece4}></div>
+      <div className={styles.rightpiece5}></div>
+      <div className={styles.rightpiece6}></div>
+      <div className={styles.rightpiece7}></div>
+      <div className={styles.rightpiece8}></div>
+      <div className={styles.rightpiece9}></div>
+      <div className={styles.rightpiece10}></div>
+      <div className={styles.rightpiece11}></div>
+      <div className={styles.rightpiece12}></div>
+      <div className={styles.rightpiece13}></div>
+      <div className={styles.rightpiece14}></div>
+      <div className={styles.rightpiece15}></div>
+      <div className={styles.rightpiece16}></div>
+      <div className={styles.rightpiece17}></div>
+      <div className={styles.rightpiece18}></div>
+      <div className={styles.rightpiece19}></div>
+      <div className={styles.rightpiece20}></div>
+      <div className={styles.rightpiece21}></div>
+      <div className={styles.rightpiece22}></div>
+      <div className={styles.rightpiece23}></div>
+
+
+
+      <audio id="song" src="/whenImetyou.mp3" type="audio/mp3"></audio>
 
       {/* ... rest of your Heart component */}
-    </div>
+    </div></>
   );
 };
 
