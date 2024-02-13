@@ -140,7 +140,7 @@ const Compose = () => {
             </label>
 
             <label htmlFor="image" className={styles.formLabel}>
-              Upload an Image (optional):
+              Upload an Image (REQUIRED!!):
               <input
                 type="file"
                 id="image"
@@ -148,6 +148,7 @@ const Compose = () => {
                 accept="image/*"
                 onChange={handleImageChange}
                 className={styles.formInput}
+                required
               />
             </label>
 
