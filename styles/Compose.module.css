@@ -1,0 +1,72 @@
+/* styles/Compose.module.css */
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+
+.container {
+    background-color: #f5f4f2;
+    background-image: linear-gradient(315deg, #f5f4f2 0%, #ff4081 74%);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+  
+  .composeForm {
+    max-width: 500px;
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .formLabel {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+  
+  .formInput,
+  .formTextarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .formBtn {
+    background-color: #ec4242;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .formBtn:hover {
+    background-image: url("/giphy.gif");
+  }
+  
+  .messageAnimation {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #4caf50;
+    border-radius: 4px;
+    background-color: #e7f3e7;
+    color: #4caf50;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .container h1{
+    font-family: "Pangolin", cursive;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+  }
